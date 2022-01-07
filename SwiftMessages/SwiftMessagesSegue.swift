@@ -170,7 +170,7 @@ open class SwiftMessagesSegue: UIStoryboardSegue {
      number of configuration options that you may use. For example, you may configure a default drop
      shadow by calling `messageView.configureDropShadow()`.
      */
-    public var messageView = BaseView()
+    public var messageView = SWBaseView()
 
     /**
      The view controller's view is embedded in `containerView` before being installed into

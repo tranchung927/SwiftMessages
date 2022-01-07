@@ -10,7 +10,7 @@ import UIKit
 
 /*
  */
-open class MessageView: BaseView, Identifiable, AccessibleMessage {
+open class MessageView: SWBaseView, Identifiable, AccessibleMessage {
     
     /*
      MARK: - Button tap handler
